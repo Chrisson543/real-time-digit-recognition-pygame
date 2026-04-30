@@ -26,7 +26,7 @@ model = CNN(
             nn.Linear(128, 10)
         )
 )
-model.load("../models/cnn_mnist_model.pth", is_eval=True)
+model.load("cnn_mnist_model.pth", is_eval=True)
 
 timer = 0
 prediction = 0
